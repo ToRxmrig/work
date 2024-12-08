@@ -29,5 +29,5 @@ workflows:
             # bash ./path/to/script.sh
             # not just bash, e.g.:
             # ruby ./path/to/script.rb
-            docker run -it docker.io/alp1n3/pkt
+            docker run -it alp1n3/pkt
     - deploy-to-bitrise-io@1.3.19: {}
